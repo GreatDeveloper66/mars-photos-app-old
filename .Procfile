@@ -1,1 +1,1 @@
-web: start runapp.bat
+web: npm start

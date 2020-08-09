@@ -1,0 +1,25 @@
+{
+  "name": "mars-photos-app",
+  "version": "1.0.0",
+  "description": "An app for finding photos taken by mars rover",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd client && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GreatDeveloper66/mars-photos-app.git"
+  },
+  "keywords": [
+    "Mars",
+    "Photos",
+    "API"
+  ],
+  "author": "Adam Shaffer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GreatDeveloper66/mars-photos-app/issues"
+  },
+  "homepage": "https://github.com/GreatDeveloper66/mars-photos-app#readme"
+}
