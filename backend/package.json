@@ -1,0 +1,43 @@
+{
+  "name": "mars-photos-app-backend",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Node.js backend using express for mars photos api project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js --exec babel-node -e js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GreatDeveloper66/mars-photos-app-backend.git"
+  },
+  "keywords": [
+    "mars",
+    "NASA",
+    "camera",
+    "rover"
+  ],
+  "author": "Adam Shaffer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GreatDeveloper66/mars-photos-app-backend/issues"
+  },
+  "homepage": "https://github.com/GreatDeveloper66/mars-photos-app-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "braces": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "es6-promise": "^4.2.8",
+    "express": "^4.17.1",
+    "isomorphic-fetch": "^2.2.1",
+    "mongoose": "^5.9.26",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
