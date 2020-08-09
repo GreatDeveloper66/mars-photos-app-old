@@ -10,6 +10,9 @@ const PORT = process.env.BACK_URL
 app.use(bodyParser.urlencoded({extended: true}))
 app.use(bodyParser.json())
 const [ URL, key ] = [ process.env.BASE_URL, process.env.MARS_API_KEY ]
+app.use(function(req,res) {
+    res.sendFile(path.join(__dirname, '../client/build/index.html'))
+})
 /*
 const URL = process.env.BASE_URL
     const sol = 1000
