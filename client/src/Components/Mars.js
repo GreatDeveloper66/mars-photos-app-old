@@ -11,14 +11,12 @@ export default function Mars() {
     const handleIncDec = event => setSol(event.target.value)
     const fetchURL = `${URL}/sol/${sol}/camera/${camera}`
     console.log(fetchURL)
-    const renderImages = () => {
-        
-        return Images.map((img, index) => <Col xs={12} sm={6} md={4} lg={3} className="d-flex justify-content-center" key={index}>
+    const renderImages = () => Images.map((img, index) => <Col xs={12} sm={6} md={4} lg={3} className="d-flex justify-content-center" key={index}>
             <Image src={img} thumbnail />
         </Col>)
         
         
-    }
+    
     const handleSubmit = event => {
         event.preventDefault()
         fetch(`${fetchURL}`)
